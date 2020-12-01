@@ -14,7 +14,6 @@
 
 #header {
   height: 10%;
-  width: 100%;
 
   display: flex;
   justify-content: space-between;
@@ -23,7 +22,7 @@
 }
 
 #header img {
-  width: 1000px;
+  width: 100px;
   padding: 0px;
 }
 
