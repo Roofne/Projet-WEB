@@ -7,13 +7,13 @@
     <!-- Médias dans MEDIA/-->
   </head>
 
-  <body background='MEDIA/.jpg'>
+  <body>
+    
     <!-- Banderole -->
-    <header>
-      <img src="MEDIA/logo aéro-club Chinon.jpg" alt="logo_site.png">
+    <div id="header">
+      <img src="MEDIA/logo aéro-club Chinon.jpg" alt="logo_site.png" id='logo'>
       <a id=pageTitle1> Bienvenue </a>
-      <img src="MEDIA/sfes.png" alt="meteo.png">
-      <img src="MEDIA/sfes.png" alt="meteo.png">
+      <img src="MEDIA/sfes.png" alt="meteo.png" id='meteo'>
       <!--Widget Météo-->
 
       <!---
@@ -22,7 +22,7 @@
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
       </script>
       --->
-    </header>
+    </div>
 
     <!-- Menu de navigation du site -->
     <nav>
@@ -36,10 +36,10 @@
     </nav>
 
     <!--Fil d'actualitée-->
-    <nav>
+    <navp>
       Portes Ouvertes
       Portes Ouvertes
-    </nav>
+    </navp>
 
     <!--Section Principale : quelques mots sur le club-->
     <article>
@@ -48,13 +48,17 @@
       <p> Nous proposons différentes possibilités : cours de pilotage, baptême de l'air, rallyes... </p>
       <p> N'hésitez pas à nous contacter ! </p>
       <!-- Diapo Présentation, image de fond-->
+      <div class="d1"> </div>
+      <div class="conteneur">
+        <div class="d2"> </div>
+      </div>
     </article>
 
     <!--Footer-->
     <footer>
-      <img src="MEDIA/Twitter-icon.png" alt="Ceci aurait dû être l'icône Twitter" width="10%">
-      <img src="MEDIA/Facebook icon 01.png" alt="Ceci aurait dû être l'icône Facebook" width="10%">
-      <img src="MEDIA/Instagram_icon.png" alt="Ceci aurait dû être l'icône Instagram" width="10%">
+      <img src="MEDIA/Twitter-icon.png" alt="Ceci aurait dû être l'icône Twitter" width="1%">
+      <img src="MEDIA/Facebook icon 01.png" alt="Ceci aurait dû être l'icône Facebook" width="1%">
+      <img src="MEDIA/Instagram_icon.png" alt="Ceci aurait dû être l'icône Instagram" width="1%">
     </footer>
 
   </body>
