@@ -18,11 +18,16 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #header img {
   width: 1000px;
   padding: 0px;
+}
+
+#header a {
+
 }
 
 /* ------------------------------------------------------------------------- */
