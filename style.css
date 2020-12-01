@@ -29,7 +29,7 @@
 }
 
 #header img {
-  width: 30px;
+  width: 200px;
   padding: 0px;
 }
 
@@ -61,7 +61,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
 
-  padding: 1px;
+  padding: 0px;
   display: flex;
   position: fixed;
   height: 100%;
