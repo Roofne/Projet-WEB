@@ -20,14 +20,6 @@
   justify-content: space-between;
 }
 
-#header a {
-  text-align: center;
-  text-decoration: none;
-  color: rgb(37, 99, 235);
-
-  padding: 0px;
-}
-
 #header img {
   width: 200px;
   padding: 0px;
@@ -45,7 +37,6 @@
 }
 
 #nav a {
-  color : black;
   text-align: center;
   text-decoration: none;
 
@@ -90,8 +81,10 @@
 }
 
 #article conteneur {
-
+  max-width: auto;
+  margin: auto;
 }
+
 /* ------------------------------------------------------------------------- */
 
 #footer {
@@ -111,6 +104,7 @@
   font-family: trebuchet;
   font-size: 100px;
   color: rgb(37, 99, 235);
+
   text-align: center;
   filter: drop-shadow(5px 5px 2px rgb(55, 65, 81));
 }
@@ -119,7 +113,7 @@
   font-family: trebuchet;
   font-size : 25px;
   color: black;
-  text-align: center;
+
   border: 2px solid rgb(60, 60, 60);
   background-color : rgb(96, 165, 250);
   padding: 0.5em;
@@ -128,5 +122,6 @@
 #pageText {
   font-family: coronet;
   color: black;
+  
   text-align: center;
 }
