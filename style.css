@@ -30,7 +30,7 @@
 
 /* ------------------------------------------------------------------------- */
 
-article {
+#article {
   border: 1px solid black;
   background-image: url("MEDIA/P_garde_1.jpg");
   background-repeat: no-repeat;
@@ -44,26 +44,25 @@ article {
   width: 100%
 }
 
-div.d1 {
+#article d1 {
   width: auto;
   height: auto;
   margin: auto;
-  box-shadow: 0px 15px 10px -5px
-  background-color:
-
+  box-shadow: 0px 15px 10px -5px;
+  background-color: 000;
+  background-size: contain;
 }
 
 /* ------------------------------------------------------------------------- */
 
-nav {
-  height : 100px;
+#nav {
   background-color: rgb(60, 60, 60);
   padding: 1em;
   display: flex;
   justify-content: center;
 }
 
-nav ul {
+#nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -71,12 +70,12 @@ nav ul {
   background-color:;
 }
 
-nav li {
+#nav li {
   float: left;
   padding: 1em
 }
 
-nav li a {
+#nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -86,7 +85,7 @@ nav li a {
 
 /* ------------------------------------------------------------------------- */
 
-footer {
+#footer {
   border: 1px solid black;
   background-color: #333;
   bottom: 0;
@@ -109,7 +108,7 @@ footer {
 
 #pageTitle {
   font-family: trebuchet;
-  font-size : 20px;
+  font-size : 25px;
   color: black;
   text-align: center;
   border: 2px solid rgb(60, 60, 60);
