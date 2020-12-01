@@ -25,8 +25,14 @@ header a {
   text-decoration: none;
 }
 
-header img {
+header #logo {
   width: 20%;
+  repeat: no-repeat;
+}
+
+header #meteo {
+  width: 40%;
+  repeat: no-repeat;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -91,11 +97,11 @@ footer {
 
 
 #pageTitle1 {
-  font-family: cherry swash;
+  font-family: trebuchet;
+  font-size: 100px;
   color : rgba(37, 99, 235);
   text-align: center;
-  border: 2px solid white;
-  filter: drop-shadow(20px 20px 2px rgba(55, 65, 81));
+  filter: drop-shadow(5px 5px 2px rgba(55, 65, 81));
 }
 
 #pageTitle {
