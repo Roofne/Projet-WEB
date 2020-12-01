@@ -13,8 +13,7 @@
 /* ------------------------------------------------------------------------- */
 
 header {
-  border: 1px solid black;
-
+  background-color: #424242
   display: block;
   position: center;
 }
@@ -28,12 +27,10 @@ header a {
 
 header #logo {
   width: 20px;
-  repeat: no-repeat;
 }
 
 header #meteo {
   width: 40px;
-  repeat: no-repeat;
 }
 
 /* ------------------------------------------------------------------------- */
