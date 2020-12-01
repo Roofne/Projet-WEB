@@ -12,19 +12,19 @@
 
 /* ------------------------------------------------------------------------- */
 
-header {
+#header {
   display: block;
   position: center;
 }
 
-header a {
+#header a {
   color: white;
   padding: 1px;
   text-align: center;
   text-decoration: none;
 }
 
-header img {
+#header img {
   width: 20px;
 }
 
@@ -47,13 +47,16 @@ article {
 div.d1 {
   width: auto;
   height: auto;
-
+  margin: auto;
+  box-shadow: 0px 15px 10px -5px
+  background-color:
 
 }
 
 /* ------------------------------------------------------------------------- */
 
 nav {
+  height : 100px;
   background-color: rgb(60, 60, 60);
   padding: 1em;
   display: flex;
@@ -106,6 +109,7 @@ footer {
 
 #pageTitle {
   font-family: trebuchet;
+  font-size : 20px;
   color: black;
   text-align: center;
   border: 2px solid rgb(60, 60, 60);
