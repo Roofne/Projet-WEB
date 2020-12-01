@@ -13,7 +13,7 @@
 /* ------------------------------------------------------------------------- */
 
 header {
-  background-color: #424242
+  background-color: rgb(60, 60, 60);
   display: block;
   position: center;
 }
@@ -25,11 +25,11 @@ header a {
   text-decoration: none;
 }
 
-header #logo {
+#logo {
   width: 20px;
 }
 
-header #meteo {
+#meteo {
   width: 40px;
 }
 
