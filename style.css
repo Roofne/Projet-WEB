@@ -53,29 +53,17 @@
   background-size: contain;
 }
 
+
 /* ------------------------------------------------------------------------- */
 
 #nav {
   background-color: rgb(60, 60, 60);
-  padding: 1em;
+  padding: 0em;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-#nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:;
-}
-
-#nav li {
-  float: left;
-  padding: 1em
-}
-
-#nav li a {
+#nav a {
   display: block;
   color: white;
   text-align: center;
