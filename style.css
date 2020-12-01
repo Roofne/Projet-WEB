@@ -25,7 +25,6 @@
   text-decoration: none;
   color: rgb(37, 99, 235);
 
-  height : 25%;
   padding: 0px;
 }
 
@@ -90,7 +89,9 @@
   margin: 0px;
 }
 
+#article conteneur {
 
+}
 /* ------------------------------------------------------------------------- */
 
 #footer {
