@@ -19,7 +19,7 @@ header {
 
 header a {
   color: white;
-  padding:;
+  padding: 1px;
   text-align: center;
   text-decoration: none;
 }
@@ -44,14 +44,17 @@ article {
   width: 100%
 }
 
-div.d1{
-  
+div.d1 {
+  width: auto;
+  height: auto;
+
+
 }
 
 /* ------------------------------------------------------------------------- */
 
 nav {
-  background-color: rgb(60, 60, 60)
+  background-color: rgb(60, 60, 60);
   padding: 1em;
   display: flex;
   justify-content: center;
@@ -105,7 +108,7 @@ footer {
   font-family: trebuchet;
   color: black;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid rgb(60, 60, 60);
   background-color : rgba(96, 165, 250, 0.5);
   padding: 0.5em;
 }
