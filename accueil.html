@@ -1,63 +1,59 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang=fr dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Aéro-Club Chinon </title>
-    <link rel="stylesheet" href="style.css">
+    <title> Squelette Page</title>
+    <link rel="stylesheet" href="squelette_style.css">
     <!-- Médias dans MEDIA/-->
   </head>
 
   <body>
 
-    <!-- Banderole -->
-    <div id="header">
-      <img src="MEDIA/logo aéro-club Chinon.jpg" alt="logo_site.png" id='logo'>
-      <a id=pageTitle1> Bienvenue </a>
-      <img src="MEDIA/sfes.png" alt="meteo.png" id='meteo'>
+    <!-- Banderole du site -->
+    <div class="main_box">
+      <header>
+        <img src="MEDIA/logo aéro-club Chinon.jpg" alt="logo_site.png" id='logo'>
+        <a id=pageTitle1> Bienvenue </a>
+        <img src="MEDIA/sfes.png" alt="meteo.png" id='meteo'>
 
-      <!--Widget Météo-->
+        <!--Widget Météo-->
 
-      <!---
-      <a class="weatherwidget-io" href="https://forecast7.com/fr/47d170d24/chinon/" data-label_1="Chinon" data-label_2="Météo" data-font="Trebuchet MS" data-icons="Climacons Animated" data-days="3" data-theme="original" >Chinon Météo</a>
-      <script>
-      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-      </script>
-      --->
-    </div>
+        <!---
+        <a class="weatherwidget-io" href="https://forecast7.com/fr/47d170d24/chinon/" data-label_1="Chinon" data-label_2="Météo" data-font="Trebuchet MS" data-icons="Climacons Animated" data-days="3" data-theme="original" >Chinon Météo</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+        --->
+      </header>
 
-    <!-- Menu de navigation du site -->
-    <div id="nav">
-      <a href="#" id='pageTitle'> Nos Avions</a>
-      <a href="#" id='pageTitle'> Tour Aérien des Jeunes Pilotes</a>
-      <a href="#" id='pageTitle'> Le Club</a>
-      <a href="#" id='pageTitle'> Infos Pratiques</a>
-      <a href="#" id='pageTitle'> Eléments</a>
-    </div>
+      <!-- Menu de navigation du site -->
+      <nav>
+        <a href="#" id='pageTitle'> Nos Avions</a>
+        <a href="#" id='pageTitle'> Tour Aérien des Jeunes Pilotes</a>
+        <a href="#" id='pageTitle'> Le Club</a>
+        <a href="#" id='pageTitle'> Infos Pratiques</a>
+        <a href="#" id='pageTitle'> Eléments</a>
+      </nav>
 
-    <!--Fil d'actualitée-->
-    <div id="fil_actu">
-      Portes Ouvertes
-      Portes Ouvertes
-    </div>
-
-    <!--Section Principale : quelques mots sur le club-->
-    <div id="article">
-      <p> Fondé en 1928, l'Aéro-club Emile Vuillermoz de Chinon compte parmi les plus anciens de France et fut l'un des premiers à pratiquer la voltige. </p>
-      <p> Club de passionnés, nos bénévoles se feront une joie de partager avec vous leur amour du pilotage ! </p>
-      <p> Nous proposons différentes possibilités : cours de pilotage, baptême de l'air, rallyes... </p>
-      <p> N'hésitez pas à nous contacter ! </p>
-      <!-- Diapo Présentation, image de fond-->
-      <div id="d1"> </div>
-      <div id="conteneur">
-        <div id="d2"> </div>
+      <div class="container">
+        <!--Section Principale : quelques mots sur le club-->
+        <div id="article">
+          <p> Fondé en 1928, l'Aéro-club Emile Vuillermoz de Chinon compte parmi les plus anciens de France et fut l'un des premiers à pratiquer la voltige. </p>
+          <p> Club de passionnés, nos bénévoles se feront une joie de partager avec vous leur amour du pilotage ! </p>
+          <p> Nous proposons différentes possibilités : cours de pilotage, baptême de l'air, rallyes... </p>
+          <p> N'hésitez pas à nous contacter ! </p>
+          <!-- Diapo Présentation, image de fond-->
+          <div id="d1"> </div>
+          <div id="conteneur">
+            <div id="d2"> </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <!--Footer-->
-    <div id="footer">
-      <img src="MEDIA/Twitter-icon.png" alt="Ceci aurait dû être l'icône Twitter" width="1%">
-      <img src="MEDIA/Facebook icon 01.png" alt="Ceci aurait dû être l'icône Facebook" width="1%">
-      <img src="MEDIA/Instagram_icon.png" alt="Ceci aurait dû être l'icône Instagram" width="1%">
+      <footer>
+        <img src="MEDIA/Twitter-icon.png" alt="Ceci aurait dû être l'icône Twitter" width="1%">
+        <img src="MEDIA/Facebook icon 01.png" alt="Ceci aurait dû être l'icône Facebook" width="1%">
+        <img src="MEDIA/Instagram_icon.png" alt="Ceci aurait dû être l'icône Instagram" width="1%">
+      </footer>
     </div>
 
   </body>
