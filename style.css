@@ -36,6 +36,10 @@ header {
   margin: 0 0 10px 0;
 }
 
+header img {
+  height: 100px
+}
+
 /*-------------Options relatives au nav menu --------------------------------*/
 nav {
   text-align: center;
@@ -45,6 +49,10 @@ nav {
 
   flex-shrink: 0;
   height: 60px;
+}
+
+nav a {
+  text-align: center;
 }
 
 /*-------------Options relatives au footer ----------------------------------*/
