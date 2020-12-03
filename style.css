@@ -26,13 +26,15 @@ html,body {
 
 /*-------------Options relatives au header ----------------------------------*/
 header {
-  text-align: center;
-  color: black;
   background-color: blue;
   border: 1px solid black;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   flex-shrink: 0;
-  height: 60px;
+  height: 100px;
   margin: 0 0 10px 0;
 }
 
@@ -42,8 +44,10 @@ header img {
 
 /*-------------Options relatives au nav menu --------------------------------*/
 nav {
-  text-align: center;
-  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background-color: blue;
   border: 1px solid black;
 
@@ -62,8 +66,12 @@ footer {
   background-color: blue;
   border: 1px solid black;
 
-  height: 60px;
+  height: 100px;
   flex-shrink: 0;
+}
+
+footer img {
+  height:100px;
 }
 
 /*-------------Options relatives au conteneur principal ---------------------*/
@@ -73,7 +81,6 @@ footer {
     min-height: 100px;
 }
 
-/*
 #article {
   border: 1px solid black;
   background-image: url("MEDIA/P_garde_1.jpg");
@@ -119,7 +126,6 @@ footer {
   flex-direction: column;
   justify-content: center;
 }
-*/
 
 /* ------------------------------------------------------------------------- */
 /* ----------------------------Style du texte -------------------------------*/
@@ -127,7 +133,7 @@ footer {
 
 #pageTitle1 {
   font-family: trebuchet;
-  font-size: 100px;
+  font-size: 50px;
   color: rgb(37, 99, 235);
   filter: drop-shadow(4px 4px 2px rgb(55, 65, 81));
 }
