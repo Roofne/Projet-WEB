@@ -1,48 +1,34 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
+html lang=fr dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Aéro-Club Chinon </title>
+    <title>Accueil Aéro-Club de Chinon</title>
     <link rel="stylesheet" href="style.css">
     <!-- Médias dans MEDIA/-->
   </head>
 
-  <body background='MEDIA/.jpg'>
-    <!-- Banderole -->
-    <header>
-      <img src="MEDIA/logo aéro-club Chinon.jpg" alt="logo_site.png">
-      <a id=pageTitle1> Bienvenue </a>
-      <img src="MEDIA/sfes.png" alt="meteo.png">
-      <img src="MEDIA/sfes.png" alt="meteo.png">
-      <!--Widget Météo-->
+  <body>
+    <!-- Banderole du site -->
+    <div class="main_box">
+      <header id="barStyle">
+        <img src="MEDIA/logo aéro-club Chinon.jpg" alt="logo_site.png" id='logo'>
+        <a id=pageTitle1>Bienvenue</a>
+        <img src="MEDIA/sfes.png" alt="meteo.png" id='meteo'>
+        <!--Widget Météo-->
+        <!---
+        <a class="weatherwidget-io" href="https://forecast7.com/fr/47d170d24/chinon/" data-label_1="Chinon" data-label_2="Météo" data-font="Trebuchet MS" data-icons="Climacons Animated" data-days="3" data-theme="original" >Chinon Météo</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+        --->
+      </header>
 
-<<<<<<< Updated upstream
-      <!---
-      <a class="weatherwidget-io" href="https://forecast7.com/fr/47d170d24/chinon/" data-label_1="Chinon" data-label_2="Météo" data-font="Trebuchet MS" data-icons="Climacons Animated" data-days="3" data-theme="original" >Chinon Météo</a>
-      <script>
-      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-      </script>
-      --->
-    </header>
-
-    <!-- Menu de navigation du site -->
-    <nav>
-      <ul>
-        <li><a href="#" id='pageTitle'> Nos Avions</a></li>
-        <li><a href="#" id='pageTitle'> Tour Aérien des Jeunes Pilotes</a></li>
-        <li><a href="#" id='pageTitle'> Le Club</a></li>
-        <li><a href="#" id='pageTitle'> Infos Pratiques</a></li>
-        <li><a href="#" id='pageTitle'> Eléments</a></li>
-      </ul>
-    </nav>
-=======
       <!-- Menu de navigation du site -->
       <nav id="barStyle">
-        <a href="accueil.html" id='pageTitle'>Nos Avions</a>
-        <a href="accueil.html" id='pageTitle'>Tour Aérien des Jeunes Pilotes</a>
-        <a href="accueil.html" id='pageTitle'>Le Club</a>
-        <a href="accueil.html" id='pageTitle'>Infos Pratiques</a>
-        <a href="accueil.html" id='pageTitle'>Eléments</a>
+        <a href="#" id='pageTitle'>Nos Avions</a>
+        <a href="#" id='pageTitle'>Tour Aérien des Jeunes Pilotes</a>
+        <a href="#" id='pageTitle'>Le Club</a>
+        <a href="#" id='pageTitle'>Infos Pratiques</a>
+        <a href="#" id='pageTitle'>Eléments</a>
       </nav>
 
       <div class="container">
@@ -52,30 +38,25 @@
           <p> Club de passionnés, nos bénévoles se feront une joie de partager avec vous leur amour du pilotage ! </p>
           <p> Nous proposons différentes possibilités : cours de pilotage, baptême de l'air, rallyes... </p>
           <p> N'hésitez pas à nous contacter ! </p>
+
+          <div id="d1"> </div>
+          <div id="conteneur">
+            <div id="d2"> </div>
+          </div>
         </div>
->>>>>>> Stashed changes
 
-    <!--Fil d'actualitée-->
-    <nav>
-      Portes Ouvertes
-      Portes Ouvertes
-    </nav>
+        <div class="fil_actu">
+          <p>Nouveau Nouveau Nouveau Nouveau</p>
+        </div>
+      </div>
 
-    <!--Section Principale : quelques mots sur le club-->
-    <article>
-      <p> Fondé en 1928, l'Aéro-club Emile Vuillermoz de Chinon compte parmi les plus anciens de France et fut l'un des premiers à pratiquer la voltige. </p>
-      <p> Club de passionnés, nos bénévoles se feront une joie de partager avec vous leur amour du pilotage ! </p>
-      <p> Nous proposons différentes possibilités : cours de pilotage, baptême de l'air, rallyes... </p>
-      <p> N'hésitez pas à nous contacter ! </p>
-      <!-- Diapo Présentation, image de fond-->
-    </article>
-
-    <!--Footer-->
-    <footer>
-      <img src="MEDIA/Twitter-icon.png" alt="Ceci aurait dû être l'icône Twitter" width="10%">
-      <img src="MEDIA/Facebook icon 01.png" alt="Ceci aurait dû être l'icône Facebook" width="10%">
-      <img src="MEDIA/Instagram_icon.png" alt="Ceci aurait dû être l'icône Instagram" width="10%">
-    </footer>
+      <footer id="barStyle">
+        <img src="MEDIA/Twitter-icon.png" alt="Ceci aurait dû être l'icône Twitter">
+        <img src="MEDIA/Facebook icon 01.png" alt="Ceci aurait dû être l'icône Facebook">
+        <img src="MEDIA/Instagram_icon.png" alt="Ceci aurait dû être l'icône Instagram">
+        <p>Aéro-drome de Chinon © 2020-2021</p>
+      </footer>
+    </div>
 
   </body>
 </html>
