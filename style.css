@@ -8,107 +8,160 @@
 /* ------------------------------------------------------------------------- */
 /*------------------------- Style des sections ------------------------------*/
 /* ------------------------------------------------------------------------- */
+html,body {
+     height:100%;
+     margin:0;
+     padding:0;
+ }
 
+.main_box {
+  width: 100%;
+  height: 100%;
+  border: 0px solid black;
+  background-color: rgb(51, 102, 204);
 
-/* ------------------------------------------------------------------------- */
-
-header {
-  border: 1px solid black;
-  display: block;
-  position: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
-header a {
-  color: white;
-  padding:;
+/*-------------Options relatives au header ----------------------------------*/
+header {
+  border: 2px solid black;
+  height: 15%;
+  margin: 5px 0 10px 0;
   text-align: center;
-  text-decoration: none;
 }
 
 header img {
-  width: 20%;
-}
-
-/* ------------------------------------------------------------------------- */
-
-article {
-  border: 1px solid black;
-  background-image: url("MEDIA/P_garde_1.jpg");
-  background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
-  background-size: 100%;
-
-  padding: 1px;
-  display: block;
-  position: fixed;
   height: 100%;
-  width: 100%
+  padding: 0 10% 0 10%;
 }
 
-/* ------------------------------------------------------------------------- */
-
+/*-------------Options relatives au nav menu --------------------------------*/
 nav {
   border: 2px solid black;
-  padding: 1em;
+  height: px;
+}
+
+nav a {
+  text-align: center;
+  margin: auto;
+}
+
+/*-------------Options relatives au footer ----------------------------------*/
+footer {
+  border: 2px solid black;
+
+  display: flex;
+  align-items: center;
+
+  height: 5%;
+  flex-shrink: 0;
+}
+
+footer img {
+  height: 80%;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+/*-------------Options relatives au conteneur principal ---------------------*/
+.container{
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 100px;
+  padding: 10px;
+
+}
+
+#article {
+  border: 2px solid black;
+  background-image: url("MEDIA/P_garde_1.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  padding: 0 0 0px 0;
+  height: 80%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#article d1 {
+  background-color: 000;
+  background-size: contain;
+
+  height: auto;
+  margin: auto;
+  box-shadow: 0px 15px 10px -5px;
+}
+
+#article d2 {
+  background-color: 000;
+  background-image: url("MEDIA/P_garde_4.jpg");
+  background-size: contain;
+
+  box-shadow: 0px 0px 10px;
+  height: 0px;
+
+  padding: 0px 0 0 0;
+  margin: 0px;
+}
+
+#article conteneur {
+  max-width: auto;
+  margin: auto;
+}
+
+#article p {
+  text-align: center;
+}
+
+.container .fil_actu {
+  background-color: white;
+
+  border: 2px solid black;
+  padding: 0px 0 0px 0;
+  height: 20%;
+
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:;
-}
-
-nav li {
-  float: left;
-  padding: 1em
-}
-
-nav li a {
-  display: block;
-  color: white;
+.container .fil_actu p {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* ------------------------------------------------------------------------- */
-
-footer {
-  border: 1px solid black;
-  background-color: #333;
-  bottom: 0;
-  position: fixed;
-  padding: 10px;
 }
 
 /* ------------------------------------------------------------------------- */
 /* ----------------------------Style du texte -------------------------------*/
 /* ------------------------------------------------------------------------- */
 
-
 #pageTitle1 {
-  font-family: cherry swash;
-  color : rgba(37, 99, 235);
-  text-align: center;
-  border: 2px solid white;
-  filter: drop-shadow(20px 20px 2px rgba(55, 65, 81));
+  font-family: trebuchet;
+  font-size: 50px;
+  color: rgb(37, 99, 235);
+  filter: drop-shadow(4px 4px 2px rgb(55, 65, 81));
 }
 
 #pageTitle {
   font-family: trebuchet;
+  font-size : 25px;
   color: black;
-  text-align: center;
-  border: 2px solid black;
-  background-color : rgba(96, 165, 250, 0.5);
-  padding: 0.5em;
+
+  background-color : rgb(181, 181, 186);
+  padding: 0 0 0 0px;
 }
 
 #pageText {
   font-family: coronet;
   color: black;
-  text-align: center;
+}
+
+#barStyle {
+  background-color: rgb(181, 181, 186);
+  /* Variation de couleur ?*/
 }
