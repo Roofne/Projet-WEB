@@ -30,21 +30,33 @@ header {
   border: 2px solid black;
   height: 15%;
   margin: 5px 0 10px 0;
+<<<<<<< Updated upstream
   text-align: center;
+=======
+>>>>>>> Stashed changes
 }
 
 header img {
   height: 100%;
+<<<<<<< Updated upstream
   padding: 0 10% 0 10%;
+=======
+  padding: 0px;
+>>>>>>> Stashed changes
 }
 
 /*-------------Options relatives au nav menu --------------------------------*/
 nav {
   border: 2px solid black;
+<<<<<<< Updated upstream
   height: px;
+=======
+  height: 60px;
+>>>>>>> Stashed changes
 }
 
 nav a {
+  border: 1px solid black;
   text-align: center;
   margin: auto;
 }
@@ -52,18 +64,12 @@ nav a {
 /*-------------Options relatives au footer ----------------------------------*/
 footer {
   border: 2px solid black;
-
-  display: flex;
-  align-items: center;
-
-  height: 5%;
-  flex-shrink: 0;
+  height: 10%;
 }
 
 footer img {
-  height: 80%;
-  justify-content: flex-start;
-  padding: 10px;
+  height: 100%;
+  padding: 0px;
 }
 
 /*-------------Options relatives au conteneur principal ---------------------*/
