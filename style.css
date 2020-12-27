@@ -8,147 +8,92 @@
 /* ------------------------------------------------------------------------- */
 /*------------------------- Style des sections ------------------------------*/
 /* ------------------------------------------------------------------------- */
-html,body {
-     height:100%;
-     margin:0;
-     padding:0;
- }
 
-.main_box {
-  width: 100%;
-  height: 100%;
-  border: 0px solid black;
-  background-color: rgb(51, 102, 204);
-
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+/*--Option relative à la taille des sections--*/
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
+
+header { height: 15%}
+nav    { height:  5%}
+.container { height: 72%}
+footer { height: 8%}
+
 
 /*-------------Options relatives au header ----------------------------------*/
 header {
-  border: 2px solid black;
-  height: 15%;
-  margin: 5px 0 10px 0;
-<<<<<<< Updated upstream
-  text-align: center;
-=======
->>>>>>> Stashed changes
+  margin: 0px 0 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header img {
   height: 100%;
-<<<<<<< Updated upstream
-  padding: 0 10% 0 10%;
-=======
-  padding: 0px;
->>>>>>> Stashed changes
 }
 
 /*-------------Options relatives au nav menu --------------------------------*/
 nav {
-  border: 2px solid black;
-<<<<<<< Updated upstream
-  height: px;
-=======
-  height: 60px;
->>>>>>> Stashed changes
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 nav a {
-  border: 1px solid black;
+  border: 0px solid black;
   text-align: center;
   margin: auto;
 }
 
 /*-------------Options relatives au footer ----------------------------------*/
 footer {
-  border: 2px solid black;
-  height: 10%;
+  text-align: right;
 }
-
 footer img {
   height: 100%;
-  padding: 0px;
+  float: left;
 }
 
-/*-------------Options relatives au conteneur principal ---------------------*/
-.container{
-  flex-grow: 1;
-  overflow: auto;
-  min-height: 100px;
-  padding: 10px;
 
+/*-------------Options relatives au conteneur principal ---------------------*/
+.container {
+  padding: 10px;
 }
 
 #article {
-  border: 2px solid black;
+  float: left;
+  height: 100%;
   background-image: url("MEDIA/P_garde_1.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
-
-  padding: 0 0 0px 0;
-  height: 80%;
-
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
+  background-position: center;
+  background-size:  cover;
 }
 
-#article d1 {
-  background-color: 000;
-  background-size: contain;
-
-  height: auto;
-  margin: auto;
-  box-shadow: 0px 15px 10px -5px;
-}
-
-#article d2 {
-  background-color: 000;
-  background-image: url("MEDIA/P_garde_4.jpg");
-  background-size: contain;
-
-  box-shadow: 0px 0px 10px;
-  height: 0px;
-
-  padding: 0px 0 0 0;
-  margin: 0px;
-}
-
-#article conteneur {
-  max-width: auto;
-  margin: auto;
-}
-
-#article p {
-  text-align: center;
-}
-
-.container .fil_actu {
-  background-color: white;
-
+#fil_actu {
   border: 2px solid black;
-  padding: 0px 0 0px 0;
-  height: 20%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container .fil_actu p {
+  height: 100%;
+  background-color: white;
+  float:right;
   text-align: center;
 }
+
+#fil_actu .event {
+  margin: auto;
+}
+
+
+
+
 
 /* ------------------------------------------------------------------------- */
-/* ----------------------------Style du texte -------------------------------*/
+/* ----------------------------Style des Pages -------------------------------*/
 /* ------------------------------------------------------------------------- */
 
 #pageTitle1 {
+  border: 0px solid black;
   font-family: trebuchet;
-  font-size: 50px;
+  font-size: 75px;
   color: rgb(37, 99, 235);
   filter: drop-shadow(4px 4px 2px rgb(55, 65, 81));
 }
@@ -170,4 +115,12 @@ footer img {
 #barStyle {
   background-color: rgb(181, 181, 186);
   /* Variation de couleur ?*/
+}
+
+header, nav, footer, .container, #article, #fil_actu {
+  border: 2px solid black;
+}
+
+.main_box {
+  background-color: rgb(51, 102, 204);
 }
