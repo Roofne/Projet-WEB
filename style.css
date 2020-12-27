@@ -34,6 +34,12 @@ header img {
   height: 100%;
 }
 
+header #widget_meteo {
+  border: 0px solid blue;
+  height: 100%;
+  margin-right: 18%;
+}
+
 /*-------------Options relatives au nav menu --------------------------------*/
 nav {
   display: flex;
@@ -53,6 +59,7 @@ footer {
 footer img {
   height: 100%;
   float: left;
+  margin: 0 5px 0 5px;
 }
 
 
@@ -64,6 +71,7 @@ footer img {
 #article {
   float: left;
   height: 100%;
+  width: 70%;
   background-image: url("MEDIA/P_garde_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -73,6 +81,7 @@ footer img {
 #fil_actu {
   border: 2px solid black;
   height: 100%;
+  width: 25%;
   background-color: white;
   float:right;
   text-align: center;
@@ -81,10 +90,6 @@ footer img {
 #fil_actu .event {
   margin: auto;
 }
-
-
-
-
 
 /* ------------------------------------------------------------------------- */
 /* ----------------------------Style des Pages -------------------------------*/
@@ -117,7 +122,7 @@ footer img {
   /* Variation de couleur ?*/
 }
 
-header, nav, footer, .container, #article, #fil_actu {
+header, nav, footer, #article, #fil_actu {
   border: 2px solid black;
 }
 
